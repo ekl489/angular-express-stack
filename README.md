@@ -9,6 +9,11 @@
 ## Introduction
 This project is a general outline for the generation of my most recent projects. It includes an Angular front-end/client with routing capabilities which is then served via express which handles server routes such as `/admin'.
 
+### Features
+1. /admin route handled by express
+2. /admin/docs will take you to a VuePress generated documentation page.
+3. Angular front end with routing
+
 ### Potential improvements
 1. Use a task runner such as Grunt to automate installing packages & building client as well as production and development scripts.
 2. Use a backend framework to automate many processes (e.g. auth, hashing, etc). Frameworks being assessed are:
